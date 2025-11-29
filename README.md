@@ -3,8 +3,7 @@
 Este repositório contém um **exemplo prático de keylogger em Python** com fins **estritamente educacionais**.  
 O objetivo é demonstrar como funcionam técnicas de captura de teclado e envio de dados, para que estudantes e profissionais de segurança possam **entender, detectar e prevenir** ataques semelhantes.
 
-⚠️ **Aviso Importante** 
-
+⚠️ **Aviso Importante**  
 Este projeto **não deve ser utilizado em ambientes reais** sem autorização explícita.  
 O uso indevido pode ser considerado crime conforme a legislação vigente.
 
@@ -16,22 +15,6 @@ O uso indevido pode ser considerado crime conforme a legislação vigente.
 - `logs/log.txt` → Arquivo de saída com teclas capturadas
 - `docs/teoria.md` → Explicações teóricas sobre keyloggers
 - `docs/prevencao.md` → Contramedidas e boas práticas de segurança
-
----
-
-## 🔑 Configuração de Variáveis de Ambiente
-
-Este projeto utiliza um arquivo `.env` para armazenar credenciais de teste (como e-mail e senha de autenticação).  
-Isso evita que informações sensíveis fiquem expostas diretamente no código.
-
-### Estrutura do `.env`
-
-Crie um arquivo chamado `.env` na raiz do projeto com o seguinte formato:
-
-```env
-EMAIL_ORIGEM=seu_email_aqui
-EMAIL_DESTINO=seu_email_aqui
-PASSWORD=sua_senha_aqui
 
 ---
 
